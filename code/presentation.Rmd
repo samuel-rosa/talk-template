@@ -21,3 +21,14 @@ output:
 library(magrittr)
 ```
 
+# First level slide
+
+## Second level slide
+
+<!-- Annotations -->
+<div class="notes">
+Add presenter notes to a slide.
+
+To enable presenter mode add ?presentme=true to the URL of the presentation.
+</div>
+<!-- Annotations -->
