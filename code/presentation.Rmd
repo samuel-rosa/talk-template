@@ -1,0 +1,23 @@
+---
+title: "Long title of the presentation for the first slide"
+author: "Alessandro Samuel-Rosa"
+date: "alessandrorosa@utfpr.edu.br"
+output:
+  ioslides_presentation:
+    logo: ../img/logo.png
+    widescreen: true
+    css: styles-slides.css
+---
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+<script>
+    $(document).ready(function() {
+    $('slide:not(.title-slide, .backdrop, .segue)').append('<footer></footer>');
+    $('footer').attr('label', 'Samuel-Rosa (2019) Short title of the presentation for the footer');
+  })
+</script>
+
+```{r, echo=FALSE, include=FALSE}
+library(magrittr)
+```
+
