@@ -26,9 +26,9 @@ library(magrittr)
 ## Second level slide
 
 <!-- Annotations -->
-<div class="notes">
+<div class="notes"><p style="font-size:16px">
 Add presenter notes to a slide.
 
 To enable presenter mode add ?presentme=true to the URL of the presentation.
-</div>
+<p style="font-size:16px"></div>
 <!-- Annotations -->
