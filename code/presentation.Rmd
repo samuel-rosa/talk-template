@@ -32,3 +32,5 @@ Add presenter notes to a slide.
 To enable presenter mode add ?presentme=true to the URL of the presentation.
 <p style="font-size:16px"></div>
 <!-- Annotations -->
+
+## References {.tiny}

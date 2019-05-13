@@ -37,3 +37,9 @@ blockquote {
   margin: 1.5em 10px;
   padding: 0.5em 1.5em;
 }
+/* Size variants */
+article.tiny p, article.tiny ul, article.tiny ol {
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0;
+}
