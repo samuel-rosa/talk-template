@@ -1,5 +1,6 @@
 ---
 title: "Long title of the presentation for the first slide"
+subtitle: "Subtitle of the presentation"
 author: "Alessandro Samuel-Rosa"
 date: "alessandrorosa@utfpr.edu.br"
 output:
@@ -7,6 +8,10 @@ output:
     logo: ../img/logo.png
     widescreen: true
     css: styles-slides.css
+bibliography: biblio.bib
+colorlinks: true
+nocite: |
+  @bibtexkey
 ---
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
@@ -25,12 +30,16 @@ library(magrittr)
 
 ## Second level slide
 
+```{r, echo=FALSE, fig.align='center', out.width='75%'}
+# knitr::include_graphics("../img/_______")
+```
+
 <!-- Annotations -->
 <div class="notes"><p style="font-size:16px">
 Add presenter notes to a slide.
 
 To enable presenter mode add ?presentme=true to the URL of the presentation.
-<p style="font-size:16px"></div>
+</p></div>
 <!-- Annotations -->
 
 ## References {.tiny}
