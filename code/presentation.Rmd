@@ -23,6 +23,7 @@ nocite: |
 </script>
 
 ```{r, echo=FALSE, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, fig.align = 'center')
 library(magrittr)
 ```
 
