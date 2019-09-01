@@ -43,4 +43,6 @@ To enable presenter mode add ?presentme=true to the URL of the presentation.
 </p></div>
 <!-- Annotations -->
 
+## Second level slide with content in two columns  {.columns-2}
+
 ## References {.tiny}
